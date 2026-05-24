@@ -18,6 +18,15 @@ print("Creating makefile...")
 makefile = open(dir+"/makefile", "w")
 makefile.close()
 
+print("Creating README.md ...")
+readme = open(dir+"/README.md", "w")
+readme.close()
+
+print("Creating LICENSE ...")
+readme = open(dir+"/LICENSE", "w")
+readme.close()
+
+
 print("Creating src/main.c...")
 main = open(dir+"/src/main.c", "w")
 main.close()

@@ -139,7 +139,6 @@ git commit -m "Initial project setup"
 - [ ] Support for CMake instead of Make
 - [ ] Interactive configuration menu
 - [ ] Pre-configured .gitignore for C/C++ projects
-- [ ] License file generation
 
 ## License
 

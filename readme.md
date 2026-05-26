@@ -95,7 +95,7 @@ my_awesome_project/
 
 You can easily customize the script to:
 
-- Add more initial files (e.g., `.gitignore`, `README.md`)
+- Add more initial files (e.g., `.gitignore`)
 - Modify the directory structure
 - Pre-populate files with boilerplate code
 
@@ -122,9 +122,7 @@ with open(dir + "/.gitignore", "w") as f:
 
 ## Tips
 
-- Use relative paths: `./my_project` or just `my_project`
-- Use absolute paths: `/home/user/projects/my_project`
-- The script will create the directory if it doesn't exist
+- This scrip only works if the directory doesn't exist
 - All files are automatically staged in Git, ready for your first commit
 
 ## First Commit
@@ -138,7 +136,6 @@ git commit -m "Initial project setup"
 
 ## Future Improvements
 
-- [ ] Option to choose between C and C++ templates
 - [ ] Support for CMake instead of Make
 - [ ] Interactive configuration menu
 - [ ] Pre-configured .gitignore for C/C++ projects
